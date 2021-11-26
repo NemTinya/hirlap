@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Weboldal logikai részeinek meghatározása</title>
+    <style>
+        section {
+            border: 2px solid brown;
+            margin: 5px;
+            padding: 5px 20px;
+        }
+
+        article {
+            background-color: lightgoldenrodyellow;
+        }
+
+        section>p {
+            font-size: 2em;
+            color: red;
+        }
+
+        header {
+            background-color: peru;
+            height: 2cm;
+            text-align: center;
+        }
+
+        nav {
+            width: 80%;
+            border: double 4px darkred;
+            margin: auto;
+        }
+
+        nav>ul>li {
+            display: inline;
+            background-color: orange;
+            color: red;
+
+        }
+
+        footer {
+            background-color: springgreen;
+        }
+    </style>
+</head>
+
+<body>
+    <header><img src="Origo.png" height="76" width="200" title="Origo logó"></header>
+    <nav>
+        <h2>
+            Navigációs rész
+        </h2>
+        <ul>
+            <li><a href="index.html#Rovat1">Belföldi hírek</a></li>
+            <li><a href="index.html#Rovat2">Sport</a></li>
+            <li><a href="index.html#Rovat3">Podcast és kibeszélések</a></li>
+        </ul>
+    </nav>
+    <section>
+        <p>Kiemelt híreink</p>
+
+        <section>
+            <p><a id="Rovat1">Belföldi hírek</a></p>
+
+            <article>
+                <h2>Látványos videó készült az új magyar harckocsik lövészetéről</h2>
+                <p>
+                    A harcjárművek az MH 25. Klapka György Lövészdandár 11. Harckocsizászlóaljának kötelékébe
+                    csatlakoztak,
+                    ezért Tatán találkozhatunk velük. A Leopardok átadásáról élőben tudósítottunk:
+                </p>
+            </article>
+
+            <article>
+                <h2>A Magyar Telekom történetének legjelentősebb kötvénykibocsátását hajtotta végre</h2>
+                <p>A Magyar Telekom által tartott mai kötvényaukción:</p>
+                <ul>
+                    <li>a benyújtott összes ajánlat 96,95 milliárd forint volt, </li>
+                    <li>végül a vállalat 70,83 milliárd forint forrást vont be, </li>
+                    <li>a kötvények futamideje 7 év és fix kamatozásúak,</li>
+                    <li> az aukción 1,26 százalékos átlaghozam alakult ki.</li>
+                </ul>
+                <p>A Magyar Telekom vezérigazgatójának, Rékasi Tibornak a nyilatkozata szerint:</p>
+            </article>
+
+            <article>
+                <h2>Müller Cecília elmondta, mely magyar városokban robbanhat be a járvány a következő napokban
+                </h2>
+                <p>
+                    A naponta közzétett számadatokon túl számos egyéb számadat, elemzés, járványgörbe vizsgálat előtérbe
+                    kerül, megtárgyalásra kerül, az operatív törzs figyelemmel kíséri a változásokat, a járvány
+                    dinamikáját.
+                    Fontos a döntések meghozatalánál az egészségügyi rendszer terheltsége, de számos más szempont is
+                    van. Az
+                    operatív törzs megfogalmazza a javaslatait és a kormány dönt. A holnapi kormányülésen vizsgálják
+                    felül a
+                    döntéseket, mert eltelt két hét a szigorúbb szabályok bevezetése óta – mondta el Müller Cecília.
+                </p>
+            </article>
+
+        </section>
+
+        <section>
+            <p><a id="Rovat2">Sport események</a></p>
+            <article>
+                <h2>Élete végéig börtönben maradhat az olimpiai szervezőbizottság volt elnöke</h2>
+                <p>
+                    A 79 esztendős jogászt korrupció, bűnszervezetben való részvétel, pénzmosás és adócsalás vádjában
+                    találták bűnösnek, ezért 30 év 11 hónap börtönbüntetést szabtak ki rá. Nuzmannak addig nem kell
+                    börtönbe vonulnia, míg a fellebbezését meg nem hallgatja a bíróság.
+                </p>
+                Nuzmant azzal a gyanúval tartóztatta le a brazil rendőrség, hogy az ő segítségével kétmillió dollárnyi
+                kenőpénzt utaltak át elsősorban afrikai NOB-tagoknak a 2016-os ötkarikás helyszínről döntő 2009-es
+                voksolás előtt. A letartóztatás után a NOB a szervezetben betöltött minden tisztségéből felfüggesztette
+                Nuzmant, aki a nemzetközi bizottság tiszteletbeli tagja volt, illetve a 2020-as tokiói játékok
+                előkészületeit felügyelő bizottságban tevékenykedett.
+            </article>
+
+            <article>
+                <h2>Hét év után lett újra bajnok a River Plate</h2>
+                <p>
+                    A Buenos Aires-i együttes 2014 óta először tudta megnyerni hazája pontvadászatát.
+                    A Rivert edző Marcelo Gallardo ezzel begyűjtötte utolsó nagy, még hiányzó trófeáját is a csapattal,
+                    amelyet hetvenezer néző ünnepelt a Monumental Stadionban.
+                    Az együttes Gallardo vezetésével az elmúlt hét évben összesen 13 trófeát szerzett, közte kétszer
+                    megnyerte a Libertadores Kupát.
+                </p>
+            </article>
+            <article>
+                <h2>Tragikus hirtelenséggel hunyt el a fiatal labdarúgó</h2>
+                <p>
+                    Lesújtó hírek érkeztek kedd éjszaka a japán labdarúgó első osztályban szereplő Shonan Bellmare
+                    csapatától. Közleményükben az áll, hogy tragikus hirtelenséggel életét vesztette a csapat 23 éves
+                    labdarúgója, Riuler de Oliveira Faustino.
+
+                    A japán média szerint nem voltak előjelei a tragédiának, mindenki döbbenten áll az eset előtt. A
+                    fiatal és tehetségesnek tartott labdarúgó a hírek szerint
+                    HIRTELEN SZÍVLEÁLLÁS UTÁN VESZTETTE ÉLETÉT.
+                </p>
+            </article>
+        </section>
+
+        <section>
+            <p><a id="Rovat3">Podcast és kibeszélések</a></p>
+
+            <article>
+                <h2>Tudtuk, hogy kampánytéma lesz, de mi nem propagandafilmet akartunk csinálni 2006-ról</h2>
+                <p>
+                    2006 szeptemberében, az őszödi beszéd kiszivárgása után nem sokkal Budapest utcáin demonstrációk és
+                    zavargások zajlottak. A rendőrség és a civilek összecsapásának mindkét oldalon rengeteg sérültje
+                    volt.
+
+                    Tizenöt évvel az események után még mindig sok a megválaszolatlan kérdés az események kapcsán, ezért
+                    készített dokumentumfilmet a témáról Skrabski Fruzsina rendező, forgatókönyvíró, valamint Bodoky
+                    Tamás, az Index egykori főmunkatársa, az Átlátszó főszerkesztője.
+                </p>
+            </article>
+
+            <article>
+                <h2>Zséda karrierje a Polgár Jenő Hivatalból indult</h2>
+                <p>
+                    A Sunday Brunch mai beszélgetésének egy mondata napok óta kattog bennem, annyira találó. Zséda
+                    mondta magáról, hogy énekesnőként két éne van: a díva és a virágáruslány. Utóbbi karakterisztika
+                    roppant találó, és tökéletesen definiálja az énekesnőt.
+                </p>
+                <p>
+                    Zséda, aki 27 éve áll színpadon, mással is meglepett. Ön például tudta, hogy Pápán született, a
+                    szentesi dráma tagozatos gimnáziumba járt, első munkahelye pedig Polgár Jenő hivatalában volt? Mint
+                    ismeretes, Polgár Jenő a pápai önkormányzat munkatársa volt, aki akkor vált országosan közismertté,
+                    amikor Kolompár Sándor monológja, a Mikor a mennyezet repedezett felkerült az internetre. A történet
+                    roppant szórakoztató, a teljes sztori, vagyis a karrier kezdőállomásának megismeréséhez érdemes a
+                    videóra kattintani.
+                </p>
+            </article>
+
+            <article>
+                <h2>Orbán a Fidesz élén, Márki-Zay Brüsszelben, botrány a Városházán</h2>
+                <p>
+                    Deák Dániel, a XXI. Század Intézet vezető elemzője és Nagy Attila Tibor politikai elemző volt a
+                    vendégünk az Index Kibeszélő című műsorában. Az elmúlt napok közéleti eseményeiről beszélgettünk
+                    velük.
+
+                    Szóba került többek között a múlt vasárnapi Fidesz-kongresszus is, ahol a küldöttek újraválasztották
+                    Orbán Viktort a párt elnökének, aki immár 18 éve töretlenül vezeti a nagyobbik kormánypártot.
+                </p>
+                <p>Az adásban szóba kerültek még a Városháza körüli zavaros ügyek is, amelyek miatt egyre többször kell
+                    magyarázkodnia a főpolgármesternek. Bár itt is parázs vita alakult ki a felek között, abban
+                    egyetértettek, hogy a városvezetés kommunikációja ügyetlen, ami komoly károkat okozhat még Karácsony
+                    Gergelynek.
+                </p>
+            </article>
+        </section>
+
+    </section>
+    <footer>
+        Az oldalt a Szanyi & Szanyi BT szerkeszti, Elérhetőség: szanyiszanyi@szerk.me<br>
+        Támogatóink: Illés Sándor, Kukacka KFT, Nagyker BT <br>
+        Forrás: <a href="https://index.hu/">Index.hu</a>
+    </footer>
+</body>
+
+</html>
